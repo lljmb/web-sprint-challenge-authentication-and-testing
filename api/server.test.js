@@ -1,6 +1,6 @@
 const request = require('supertest')
-const server = require('./api/server')
-const db = require('./database/dbConfig')
+const server = require('./server')
+const db = require('../data/dbConfig')
 
 const testUser = {username: 'test', password: 'test'}
 
